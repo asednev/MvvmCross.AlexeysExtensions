@@ -1,19 +1,15 @@
 ﻿using AlexeysExtensions.Touch;
-using CrossUI.Touch.Dialog.Elements;
-using MonoTouch.UIKit;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Cirrious.MvvmCross.Dialog.Touch;
+using CrossUI.Touch.Dialog.Elements;
 using MonoTouch.CoreGraphics;
+using MonoTouch.UIKit;
 using System.Drawing;
 
 namespace Sample
 {
-    public class SampleElement : UIViewElement, IBindableElement
+    public class SampleCustomElement : UIViewElement, IBindableElement
     {
-        public SampleElement()
+        public SampleCustomElement()
             : base("", new SampleView(), false)
         {
         }
@@ -60,8 +56,8 @@ namespace Sample
                     var boldFont = UIFont.BoldSystemFontOfSize(14.0f);
                     var regularFont = UIFont.SystemFontOfSize(14.0f);
 
-                    this.DrawString(Title, new RectangleF(10f, 4f, 450f, 44f), boldFont);
-                    this.DrawString(Subtitle, new RectangleF(10f, 22f, 450f, 44f), regularFont);
+                    this.DrawString(Title, new RectangleF(54f, 4f, 450f, 44f), boldFont);
+                    this.DrawString(Subtitle, new RectangleF(54f, 22f, 450f, 44f), regularFont);
 
                 }
             }

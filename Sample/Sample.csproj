@@ -77,8 +77,9 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="SampleApplication.cs" />
-    <Compile Include="SampleElement.cs" />
+    <Compile Include="SampleCustomElement.cs" />
     <Compile Include="SamplesBusinessObject.cs" />
+    <Compile Include="SampleStringElement.cs" />
     <Compile Include="SampleViewModel.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="StartNavigation.cs" />
