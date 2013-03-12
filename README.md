@@ -1,9 +1,9 @@
 <h1>MvvmCross.AlexeysExtensions</h1>
 
-<h3>BindableSection&lt;TElement&gt;</h3>
+<h3>BindableSection&lt;TElementTemplate&gt;</h3>
 MonoTouch.Dialog section element that supports data binding. 
 A collection of elements should be bound to <strong>ItemsSource</strong> property. 
-An element of type <strong>TElement</strong> will be created at run-time for each of the items in the collection. 
+An element of type <strong>TElementTemplate</strong> will be created at run-time for each of the items in the collection. 
 These elements are expected to implement an interface <strong>IBindableElement</strong> and take care of the data binding inside of the element. 
 
 ```c#
